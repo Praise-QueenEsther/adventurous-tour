@@ -1,0 +1,73 @@
+/* .genCon{
+ 
+} */
+
+body {
+    background-image: linear-gradient(50deg, rgb(9, 216, 9), white,rgb(9, 216, 9),white,rgb(9, 216, 9));
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.genCon{
+    width: 400px;
+}
+.photo img{
+    width: 400px;
+    height: 400px;
+}
+
+.decription{
+   text-align: center;
+}
+
+.namePrice{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.show button{
+    border: none;
+    background-color: transparent;
+    color: blue;
+    font-size: 14px;
+    cursor: pointer;
+   
+}
+
+.removeTour button{
+    border: none;
+    /* background-color: transparent; */
+    color: black;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-top: 3px;
+    margin-bottom: 50px;
+    background-image: linear-gradient(rgb(9, 216, 9),
+        white,
+        rgb(9, 216, 9));
+    /* text-align: center; */
+    cursor: pointer;
+    padding: 10px;
+    transition: all 1s linear;
+}
+
+.removeTour button:hover{
+    font-size: 15.5px;
+    padding: 14px;
+}
+
+.title h2{
+    text-align: center;
+}
+
+@media only screen and (max-width: 450px) {
+    .genCon{
+        width:350px ;
+    }
+.photo img {
+        width: 350px;
+        height: 350px;
+    }
+}
